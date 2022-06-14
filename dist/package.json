@@ -1,0 +1,41 @@
+{
+  "name": "poc-seds-ui",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~13.3.0",
+    "@angular/cdk": "^13.3.9",
+    "@angular/common": "~13.3.0",
+    "@angular/compiler": "~13.3.0",
+    "@angular/core": "~13.3.0",
+    "@angular/forms": "~13.3.0",
+    "@angular/material": "^13.3.9",
+    "@angular/platform-browser": "~13.3.0",
+    "@angular/platform-browser-dynamic": "~13.3.0",
+    "@angular/router": "~13.3.0",
+    "node-sass": "^7.0.1",
+    "rxjs": "~7.5.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.11.4"
+  },
+  "module": "fesm2015/poc-seds-ui.mjs",
+  "es2020": "fesm2020/poc-seds-ui.mjs",
+  "esm2020": "esm2020/poc-seds-ui.mjs",
+  "fesm2020": "fesm2020/poc-seds-ui.mjs",
+  "fesm2015": "fesm2015/poc-seds-ui.mjs",
+  "typings": "poc-seds-ui.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./poc-seds-ui.d.ts",
+      "esm2020": "./esm2020/poc-seds-ui.mjs",
+      "es2020": "./fesm2020/poc-seds-ui.mjs",
+      "es2015": "./fesm2015/poc-seds-ui.mjs",
+      "node": "./fesm2015/poc-seds-ui.mjs",
+      "default": "./fesm2020/poc-seds-ui.mjs"
+    }
+  },
+  "sideEffects": false
+}
