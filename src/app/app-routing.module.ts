@@ -1,7 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+import { SedsShowcaseModule } from './pages/seds-showcase/seds-showcase.module';
+
+const routes: Routes = [
+  { path: "showcase", loadChildren: () => SedsShowcaseModule }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
