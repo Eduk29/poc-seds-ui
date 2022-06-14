@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
+import { SedsMastheadShowcaseModule } from './../seds-masthead-showcase/seds-masthead-showcase.module';
 import { SedsShowcaseRoutingModule } from './seds-showcase-routing.module';
 import { SedsShowcaseComponent } from './seds-showcase.component';
 
@@ -10,7 +11,8 @@ import { SedsShowcaseComponent } from './seds-showcase.component';
   ],
   imports: [
     CommonModule,
-    SedsShowcaseRoutingModule
+    SedsShowcaseRoutingModule,
+    SedsMastheadShowcaseModule
   ]
 })
 export class SedsShowcaseModule { }

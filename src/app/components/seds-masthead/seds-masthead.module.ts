@@ -1,23 +1,17 @@
-import { RouterModule, Routes } from '@angular/router';
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { SedsMastheadComponent } from './seds-masthead.component';
-import { SedsMastheadShowcaseComponent } from './seds-masthead-showcase/seds-masthead-showcase.component';
+import { NgModule } from '@angular/core';
 
-const routes: Routes = [];
+import { SedsMastheadComponent } from './seds-masthead.component';
 
 @NgModule({
   declarations: [
-    SedsMastheadComponent,
-    SedsMastheadShowcaseComponent
+    SedsMastheadComponent
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
   ],
   exports: [
-    SedsMastheadComponent,
-    SedsMastheadShowcaseComponent
+    SedsMastheadComponent
   ]
 })
 export class SedsMastheadModule { }
