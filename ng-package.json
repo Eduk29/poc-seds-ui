@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/ng-packagr/ng-package.schema.json",
+  "src": "poc-seds-ui",
+  "dest": "dist/poc-seds-ui",
+  "workingDirectory": "ng_build",
   "lib": {
     "entryFile": "./public_api.ts"
   },
