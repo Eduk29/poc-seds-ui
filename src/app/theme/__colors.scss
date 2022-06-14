@@ -1,0 +1,28 @@
+@use '@angular/material' as mat;
+@use 'sass:map';
+
+@include mat.core();
+
+$seds-primary: mat.define-palette(mat.$indigo-palette, 500);
+$seds-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+$seds-success: mat.define-palette(mat.$green-palette, 500, 300, 700);
+
+// The "warn" palette is optional and defaults to red if not specified.
+$seds-warn: mat.define-palette(mat.$red-palette);
+
+$seds-theme: mat.define-light-theme((
+ color: (
+   primary: $seds-primary,
+   accent: $seds-accent,
+   success: $seds-success,
+   warn: $seds-warn
+ )
+));
+
+@include mat.all-component-themes($seds-theme);
+
+// Colors Variables
+$primary: mat.get-color-from-palette($seds-primary);
+$accent: mat.get-color-from-palette($seds-accent);
+$success: mat.get-color-from-palette($seds-success);
+$warn: mat.get-color-from-palette($seds-warn);
