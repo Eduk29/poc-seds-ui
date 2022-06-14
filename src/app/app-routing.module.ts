@@ -3,9 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { SedsShowcaseModule } from './pages/seds-showcase/seds-showcase.module';
 
-const routes: Routes = [
-  { path: "showcase", loadChildren: () => SedsShowcaseModule }
-];
+const routes: Routes = [];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
