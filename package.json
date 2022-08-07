@@ -42,7 +42,7 @@
   },
   "exports": {
     "./theming": "./src/theme/__base.scss",
-    "./@pessoal/poc-seds-ui/": "./dist/poc-seds-ui/public_api.d.ts"
+    "./@pessoal/poc-seds-ui/": "./public_api.ts"
   }
 }
 
