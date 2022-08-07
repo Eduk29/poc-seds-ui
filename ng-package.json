@@ -19,5 +19,8 @@
     "rxjs",
     "tslib",
     "zone.js"
+  ],
+  "assets": [
+    "./src/app/theme/__base.scss"
   ]
 }
