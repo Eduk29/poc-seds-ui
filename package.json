@@ -41,8 +41,8 @@
     "typescript": "~4.6.2"
   },
   "exports": {
-    "./theming": {
-      "sass": "./src/app/theme/__base.scss"
-    }
+    "./theming": "./src/theme/__base.scss",
+    "./seds": "./dist/poc-seds-ui/src/app/components"
   }
 }
+
