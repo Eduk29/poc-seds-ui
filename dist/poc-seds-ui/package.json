@@ -18,13 +18,10 @@
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },
-  "module": "fesm2015/poc-seds-ui.mjs",
-  "es2020": "fesm2020/poc-seds-ui.mjs",
-  "esm2020": "esm2020/poc-seds-ui.mjs",
-  "fesm2020": "fesm2020/poc-seds-ui.mjs",
-  "fesm2015": "fesm2015/poc-seds-ui.mjs",
-  "typings": "poc-seds-ui.d.ts",
   "exports": {
+    "./theming": {
+      "sass": "./src/app/theme/__base.scss"
+    },
     "./package.json": {
       "default": "./package.json"
     },
@@ -37,5 +34,11 @@
       "default": "./fesm2020/poc-seds-ui.mjs"
     }
   },
+  "module": "fesm2015/poc-seds-ui.mjs",
+  "es2020": "fesm2020/poc-seds-ui.mjs",
+  "esm2020": "esm2020/poc-seds-ui.mjs",
+  "fesm2020": "fesm2020/poc-seds-ui.mjs",
+  "fesm2015": "fesm2015/poc-seds-ui.mjs",
+  "typings": "poc-seds-ui.d.ts",
   "sideEffects": false
 }
