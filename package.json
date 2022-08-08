@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng-packagr -p ng-package.json",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "postinstall": "npm run build"
   },
   "private": true,
   "dependencies": {
