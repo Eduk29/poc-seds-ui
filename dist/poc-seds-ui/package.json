@@ -20,7 +20,7 @@
   },
   "exports": {
     "./theming": "./src/theme/__base.scss",
-    "./@pessoal/poc-seds-ui/public_api.ts": "./public_api.ts",
+    "./@pessoal/poc-seds-ui/public_api": "./public_api.ts",
     "./package.json": {
       "default": "./package.json"
     },
