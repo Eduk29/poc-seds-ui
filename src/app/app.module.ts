@@ -4,7 +4,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SedsMastheadModule } from './components/seds-masthead/seds-masthead.module';
 
 @NgModule({
   declarations: [
@@ -13,8 +12,7 @@ import { SedsMastheadModule } from './components/seds-masthead/seds-masthead.mod
   imports: [
     AppRoutingModule,
     BrowserAnimationsModule,
-    BrowserModule,
-    SedsMastheadModule
+    BrowserModule
   ],
   providers: [],
   bootstrap: [AppComponent]

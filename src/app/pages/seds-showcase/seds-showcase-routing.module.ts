@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: "",
     component: SedsShowcaseComponent,
     children: [
-      { path: "masthead", component: SedsMastheadShowcaseComponent, pathMatch: 'full' },
+      { path: "masthead", component: SedsMastheadShowcaseComponent },
       { path: "button", component: SedsButtonShowcaseComponent },
       { path: "**", redirectTo: "button"}
   ]},

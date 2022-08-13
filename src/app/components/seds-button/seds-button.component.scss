@@ -1,0 +1,30 @@
+@import "./../../theme/__base.scss";
+
+.masthead {
+  width: 100%;
+  padding: 2% 10%;
+
+  &.primary {
+    background-color: $primary;
+  }
+
+  &.accent {
+    background-color: $accent;
+  }
+
+  .masthead__title {
+    color: white;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    margin: 0px;
+  }
+
+  .masthead__subtitle {
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0px;
+  }
+}
