@@ -1,1 +1,8 @@
-<button mat-button>{{ label }}</button>
+<button
+  mat-button
+  [ngClass]="['seds-button--' + variant, 'seds-button--' + size]"
+  [type]="type"
+  [disabled]="disabled"
+>
+  <ng-content></ng-content>
+</button>

@@ -1,5 +1,21 @@
-<app-seds-button label="Button 1"> </app-seds-button>
+<app-seds-button (click)="greeting('button 1')"> <!-- default variant is primary -->
+  Primary Button
+</app-seds-button>
 
-<app-seds-button label="Button 2"> </app-seds-button>
+<br><br>
 
-<app-seds-button label="Button 3"> </app-seds-button>
+<app-seds-button (click)="greeting('button 2')" variant="secondary" size="large">
+  Secondary Large Button
+</app-seds-button>
+
+<br><br>
+
+<app-seds-button (click)="greeting('button 3')" variant="text">
+  Text Button
+</app-seds-button>
+
+<br><br>
+
+<app-seds-button [disabled]="true">
+  Disabled Button
+</app-seds-button>

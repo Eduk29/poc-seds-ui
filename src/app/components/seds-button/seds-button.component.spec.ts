@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SedsButtonComponent } from './seds-masthead.component';
+import { SedsButtonComponent } from './seds-button.component';
 
 describe('SedsButtonComponent', () => {
   let component: SedsButtonComponent;

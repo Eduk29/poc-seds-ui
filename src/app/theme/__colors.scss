@@ -23,6 +23,85 @@ $seds-theme: mat.define-light-theme((
 
 // Colors Variables
 $primary: mat.get-color-from-palette($seds-primary);
+$secondary: yellow; // only for example
 $accent: mat.get-color-from-palette($seds-accent);
 $success: mat.get-color-from-palette($seds-success);
 $warn: mat.get-color-from-palette($seds-warn);
+
+:root {
+  // Primary
+  --seds-color-primary: #00898a;
+  --seds-color-primary-contrast: var(--seds-color-neutral-white);
+  --seds-color-primary-light: #b2d0d2;
+  --seds-color-primary-light-contrast: var(--seds-color-neutral-black);
+  --seds-color-primary-dark: #005d5c;
+  --seds-color-primary-dark-contrast: var(--seds-color-neutral-white);
+
+  // Secondary
+  --seds-color-secondary: #f8ad3c;
+  --seds-color-secondary-dark: #ee9331;
+  --seds-color-secondary-light: #f9dba7;
+  // Data Visualization
+
+  --seds-color-data-1: #9fcd91;
+  --seds-color-data-2: #a0c1c2;
+  --seds-color-data-3: #00a58d;
+
+  // Neutrals
+  --seds-color-neutral-black: #000;
+  --seds-color-neutral-black-contrast: var(--seds-color-neutral-white);
+  --seds-color-neutral-white: #fff;
+  --seds-color-neutral-white-contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-50: #fafafa;
+  --seds-color-neutral-grey-50-contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-100: #f5f5f5;
+  --seds-color-neutral-grey-100-contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-200: #eeeeee;
+  --seds-color-neutral-grey-200-contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-300: #e0e0e0;
+  --seds-color-neutral-grey-300-contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-400: #bdbdbd;
+  --seds-color-neutral-grey400--contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-500: #9e9e9e;
+  --seds-color-neutral-grey-500-contrast: var(--seds-color-neutral-black);
+  --seds-color-neutral-grey-600: #757575;
+  --seds-color-neutral-grey-600-contrast: var(--seds-color-neutral-white);
+  --seds-color-neutral-grey-700: #616161;
+  --seds-color-neutral-grey-700-contrast: var(--seds-color-neutral-white);
+  --seds-color-neutral-grey-800: #424242;
+  --seds-color-neutral-grey-800-contrast: var(--seds-color-neutral-white);
+  --seds-color-neutral-grey-900: #212121;
+  --seds-color-neutral-grey-900-contrast: var(--seds-color-neutral-white);
+  // States
+  --seds-color-state-danger: #d12923;
+  --seds-color-state-danger-contrast: var(--seds-color-neutral-white);
+  --seds-color-state-danger-light: #f4c9c8;
+  --seds-color-state-danger-light-contrast: var(--seds-color-neutral-black);
+  --seds-color-state-warning: #f9d557;
+  --seds-color-state-warning-contrast: var(--seds-color-neutral-black);
+  --seds-color-state-warning-light: #fef5d5;
+  --seds-color-state-warning-light-contrast: var(--seds-color-neutral-black);
+  --seds-color-state-success: #7fb069;
+  --seds-color-state-success-contrast: var(--seds-color-neutral-black);
+  --seds-color-state-success-light: #dfebda;
+  --seds-color-state-success-light-contrast: var(--seds-color-neutral-black);
+  --seds-color-state-info: #00a6bc;
+  --seds-color-state-info-contrast: var(--seds-color-neutral-black);
+  --seds-color-state-info-light: #d6f1f4;
+  --seds-color-state-info-light-contrast: var(--seds-color-neutral-black);
+
+  // Typography
+  --seds-typography-headline-color: var(--seds-color-primary-dark);
+  --seds-typography-text-color: var(--seds-on-light-high-emphasis);
+  --seds-typography-button-color: var(--seds-color-primary);
+  --seds-typography-label-color: var(--seds-color-primary-dark);
+  --seds-typography-link-color: var(--seds-color-primary-dark);
+
+  // Text Color Emphasis
+  --seds-on-light-high-emphasis: rgba(0, 0, 0, 1);
+  --seds-on-light-medium-emphasis: rgba(0, 0, 0, 0.74);
+  --seds-on-light-low-emphasis: rgba(0, 0, 0, 0.38);
+  --seds-on-dark-high-emphasis: rgba(255, 255, 255, 0.87);
+  --seds-on-dark-medium-emphasis: rgba(255, 255, 255, 0.62);
+  --seds-on-dark-low-emphasis: rgba(255, 255, 255, 0.38);
+}

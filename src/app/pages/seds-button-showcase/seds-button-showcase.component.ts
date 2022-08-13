@@ -12,4 +12,8 @@ export class SedsButtonShowcaseComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  greeting(msg: string): void {
+    alert(msg);
+  }
+
 }
