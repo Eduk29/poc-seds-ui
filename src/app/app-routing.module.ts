@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { SedsShowcaseModule } from './pages/seds-showcase/seds-showcase.module';
-
 const routes: Routes = [
-  { path: "showcase", loadChildren: () => import('./pages/seds-showcase/seds-showcase.module').then(m => m.SedsShowcaseModule) }
+  { path: "showcase", loadChildren: () => import('./pages/seds-showcase/seds-showcase.module').then(m => m.SedsShowcaseModule) },
+  { path: "**", redirectTo: "showcase" }
+
 ];
 
 @NgModule({
