@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SedsMastheadModule } from './components/seds-masthead/seds-masthead.module';
+import { SedsButtonShowcaseComponent } from './pages/seds-button-showcase/seds-button-showcase.component';
 
 @NgModule({
   declarations: [

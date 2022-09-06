@@ -1,0 +1,11 @@
+<button
+  *ngIf="isBasicButton"
+  mat-button [type]="type" [color]="color" [ngClass]="class">
+  {{ label }}
+</button>
+
+<button 
+  *ngIf="isRaisedButton"
+  mat-raised-button [type]="type" [color]="color" [ngClass]="class">
+  {{ label }}
+</button>
